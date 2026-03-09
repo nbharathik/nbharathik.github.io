@@ -1,0 +1,386 @@
+{
+  "site": {
+    "fullName": "Bharathi Kannan Nithyanantham",
+    "navName": "Bharathi Kannan",
+    "homeNavName": "",
+    "navLinks": [
+      {
+        "key": "home",
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "key": "projects",
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "key": "publications",
+        "label": "Publications",
+        "href": "publications.html"
+      },
+      {
+        "key": "cv",
+        "label": "CV",
+        "href": "cv.html"
+      }
+    ]
+  },
+  "home": {
+    "publications": [
+      {
+        "image": "assets/images/mcp4ifc.gif",
+        "alt": "MCP4IFC",
+        "title": "MCP4IFC: IFC-Based Building Design Using Large Language Models",
+        "authorsHtml": "<strong>Bharathi Kannan Nithyanantham</strong>, Tobias Sesterhenn, Ashwin Nedungadi, Sergio Peral Garijo, Janis Zenkner, Christian Bartelt, Stefan L&uuml;dtke",
+        "venue": "arXiv Preprint, 2025",
+        "description": "An open-source framework enabling LLMs to create, edit, and query IFC building models through the Model Context Protocol, combining predefined BIM tools with dynamic code generation via retrieval-augmented generation.",
+        "links": [
+          {
+            "label": "paper",
+            "href": "https://arxiv.org/abs/2511.05533"
+          },
+          {
+            "label": "code",
+            "href": "https://github.com/Show2Instruct/ifc-bonsai-mcp"
+          },
+          {
+            "label": "project",
+            "href": "https://show2instruct.github.io/mcp4ifc/"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/master_thesis2.png",
+        "alt": "RGB-D Video Object Detection",
+        "title": "Depth Fusion in Transformer-Based Video Object Detection",
+        "authorsHtml": "<strong>Bharathi Kannan Nithyanantham</strong>",
+        "venue": "Master's Thesis, University of Siegen, 2024",
+        "description": "Investigated depth-aware fusion techniques integrated into transformer-based architectures for object detection and video object detection.",
+        "links": [
+          {
+            "label": "code",
+            "href": "https://github.com/bharathikannann/RGBD-video-object-detection"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "title": "PhD in Computer Science",
+        "dateHtml": "2025 &ndash; Present",
+        "organization": "University of Rostock, Germany"
+      },
+      {
+        "title": "M.Sc. Computer Science (Visual Computing)",
+        "dateHtml": "Oct 2021 &ndash; Sep 2024",
+        "organization": "University of Siegen, Germany"
+      }
+    ],
+    "selectedProjects": [
+      {
+        "title": "RGB-D Video Object Detection",
+        "summary": "Depth + RGB fusion for transformer-based video object detection.",
+        "links": [
+          {
+            "label": "code",
+            "href": "https://github.com/bharathikannann/RGBD-video-object-detection"
+          }
+        ]
+      },
+      {
+        "title": "Prioritor",
+        "summary": "Emergency care system for sharing patient data from ambulance to hospital.",
+        "links": [
+          {
+            "label": "code",
+            "href": "https://github.com/bharathikannann/prioritor"
+          }
+        ]
+      }
+    ],
+    "lastUpdated": "March 2026"
+  },
+  "projectsPage": {
+    "sections": [
+      {
+        "title": "Research Projects",
+        "projects": [
+          {
+            "title": "RGB-D Video Object Detection",
+            "tags": [
+              "Computer Vision",
+              "Transformers",
+              "Depth Fusion"
+            ],
+            "image": "https://opengraph.githubassets.com/1/bharathikannann/RGBD-video-object-detection",
+            "imageAlt": "RGB-D Video Object Detection project",
+            "paragraphsHtml": [
+              "Developed a multimodal fusion framework that integrates depth information with RGB data in transformer-based object detectors. Explored multiple fusion strategies (early, mid, and late fusion) and evaluated their impact on detection accuracy under occlusion, blur, and cluttered environments.",
+              "<em>This work is part of my master's thesis at the University of Siegen (2024).</em>"
+            ],
+            "tech": [
+              "Python",
+              "PyTorch",
+              "DETR / Deformable-DETR",
+              "COCO / SUN RGB-D"
+            ],
+            "links": [
+              {
+                "label": "code",
+                "href": "https://github.com/bharathikannann/RGBD-video-object-detection"
+              }
+            ]
+          },
+          {
+            "title": "Feature Selection for Recommender Systems",
+            "tags": [
+              "Recommender Systems",
+              "Feature Selection"
+            ],
+            "image": "https://opengraph.githubassets.com/1/bharathikannann/RecSys_Seminar",
+            "imageAlt": "Recommender Systems project",
+            "paragraphsHtml": [
+              "Surveyed and compared feature selection strategies for collaborative filtering and content-based recommendation. Evaluated filter, wrapper, and embedded methods on standard benchmarks and analyzed their trade-offs between performance and computational cost.",
+              "<em>Seminar project at the University of Siegen (2023).</em>"
+            ],
+            "tech": [
+              "Python",
+              "scikit-learn",
+              "Pandas"
+            ],
+            "links": [
+              {
+                "label": "code",
+                "href": "https://github.com/bharathikannann/RecSys_Seminar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Software Projects",
+        "projects": [
+          {
+            "title": "Prioritor",
+            "tags": [
+              "Healthcare",
+              "Full-Stack",
+              "IoT"
+            ],
+            "image": "assets/images/prioritor.png",
+            "imageAlt": "Prioritor project",
+            "paragraphsHtml": [
+              "An ambulance-to-hospital patient information system designed for emergency healthcare workflows. The system captures vital patient data during transport and transmits it to the receiving hospital in real time, enabling faster triage and preparation.",
+              "<em>Reached the semifinal stage at the India Innovation Challenge Design Contest (DST India &amp; Texas Instruments, 2021).</em>"
+            ],
+            "tech": [
+              "JavaScript",
+              "Vue.js",
+              "Node.js",
+              "MongoDB",
+              "Redis"
+            ],
+            "links": [
+              {
+                "label": "code",
+                "href": "https://github.com/bharathikannann/prioritor"
+              }
+            ]
+          },
+          {
+            "title": "Bcoin &ndash; Cryptocurrency Implementation",
+            "tags": [
+              "Blockchain",
+              "Cryptography"
+            ],
+            "image": "assets/images/bcoin.png",
+            "imageAlt": "Bcoin cryptocurrency project",
+            "paragraphsHtml": [
+              "A cryptocurrency built from scratch to understand blockchain fundamentals. Implements proof-of-work mining, transaction validation, wallet management, and a peer-to-peer network protocol."
+            ],
+            "tech": [
+              "Python",
+              "Flask",
+              "Cryptography"
+            ],
+            "links": [
+              {
+                "label": "code",
+                "href": "https://github.com/bharathikannann/bcoin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Open-Source &amp; Educational",
+        "projects": [
+          {
+            "title": "Data Structures &amp; Algorithms",
+            "tags": [
+              "DSA",
+              "Python",
+              "Java"
+            ],
+            "paragraphsHtml": [
+              "Comprehensive collection of data structures and algorithm implementations with explanations. Covers arrays, trees, graphs, dynamic programming, sorting, searching, and more."
+            ],
+            "links": [
+              {
+                "label": "python",
+                "href": "https://github.com/bharathikannann/DSA-python"
+              },
+              {
+                "label": "java",
+                "href": "https://github.com/bharathikannann/Java-Data-Structures-and-Algorithms"
+              }
+            ],
+            "linkPrefix": "Code:",
+            "linkSeparator": "/ "
+          }
+        ]
+      }
+    ]
+  },
+  "publicationsPage": {
+    "sections": [
+      {
+        "title": "Preprints",
+        "publications": [
+          {
+            "image": "assets/images/mcp4ifc.gif",
+            "alt": "MCP4IFC",
+            "title": "MCP4IFC: IFC-Based Building Design Using Large Language Models",
+            "authorsHtml": "<strong>Bharathi Kannan Nithyanantham</strong>, Tobias Sesterhenn, Ashwin Nedungadi, Sergio Peral Garijo, Janis Zenkner, Christian Bartelt, Stefan L&uuml;dtke",
+            "venue": "arXiv Preprint, 2025",
+            "description": "An open-source framework enabling large language models to create, edit, and query IFC building models through the Model Context Protocol. Combines predefined BIM tools with dynamic code generation using retrieval-augmented generation, allowing LLMs to perform complex architectural design tasks via natural language instructions without direct BIM software interaction.",
+            "links": [
+              {
+                "label": "paper",
+                "href": "https://arxiv.org/abs/2511.05533"
+              },
+              {
+                "label": "code",
+                "href": "https://github.com/Show2Instruct/ifc-bonsai-mcp"
+              },
+              {
+                "label": "project",
+                "href": "https://show2instruct.github.io/mcp4ifc/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thesis",
+        "publications": [
+          {
+            "image": "assets/images/master_thesis2.png",
+            "alt": "RGB-D Video Object Detection",
+            "title": "Depth Fusion in Transformer-Based Video Object Detection",
+            "authorsHtml": "<strong>Bharathi Kannan Nithyanantham</strong>",
+            "venue": "Master's Thesis, University of Siegen, 2024",
+            "description": "Investigated multiple depth-aware fusion strategies (early, mid, and late fusion) integrated into transformer-based architectures (DETR, Deformable-DETR) for both image-level and video-level object detection. Evaluated on SUN RGB-D and custom video benchmarks, demonstrating improved robustness under occlusion, motion blur, and scene clutter compared to RGB-only baselines.",
+            "links": [
+              {
+                "label": "code",
+                "href": "https://github.com/bharathikannann/RGBD-video-object-detection"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cvPage": {
+    "education": [
+      {
+        "title": "PhD in Computer Science",
+        "dateHtml": "2025 &ndash; Present",
+        "organization": "University of Rostock, Germany",
+        "descriptionHtml": "Research focus: Generative AI for BIM, tool-based LLMs, and multimodal spatial understanding."
+      },
+      {
+        "title": "M.Sc. Computer Science",
+        "dateHtml": "Oct 2021 &ndash; Sep 2024",
+        "organization": "University of Siegen, Germany",
+        "descriptionHtml": "Specialization: Visual Computing. Thesis: <em>Depth Fusion in Transformer-Based Video Object Detection</em>."
+      },
+      {
+        "title": "B.E. Electronics and Communication Engineering",
+        "dateHtml": "Aug 2017 &ndash; May 2021",
+        "organization": "Sri Eshwar College of Engineering, India",
+        "descriptionHtml": "Graduated with First Class Honors and Distinction."
+      }
+    ],
+    "experience": [
+      {
+        "title": "Full-Stack Developer (Student Assistant)",
+        "dateHtml": "Oct 2023 &ndash; Feb 2024",
+        "organizationHtml": "Zentrum f&uuml;r Informations- und Medientechnologie, University of Siegen",
+        "bullets": [
+          "Migrated a production web application from Vue 2 to Vue 3.",
+          "Added responsive mobile support and resolved middleware issues."
+        ]
+      },
+      {
+        "title": "Computer Vision Working Student",
+        "dateHtml": "Oct 2022 &ndash; Mar 2024",
+        "organization": "Virtual Retail",
+        "bullets": [
+          "Trained and benchmarked detection models for hand tracking applications.",
+          "Researched rotated object detection methods and improved benchmarking tooling.",
+          "Contributed to dataset curation and annotation workflows."
+        ]
+      },
+      {
+        "title": "Student Research Assistant",
+        "dateHtml": "Mar 2022 &ndash; Mar 2023",
+        "organization": "Intelligent Systems Group, University of Siegen",
+        "bullets": [
+          "Prepared recommender-system datasets and supported ensemble-model research."
+        ]
+      },
+      {
+        "title": "Alpha Tester &amp; Mentor",
+        "dateHtml": "Aug 2021 &ndash; Aug 2022",
+        "organization": "Deeplearning.AI",
+        "bullets": [
+          "Beta-tested course content for deep learning and NLP specializations.",
+          "Mentored learners and provided feedback on course materials."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "label": "Languages",
+        "value": "Python, JavaScript, Java, C++, PHP"
+      },
+      {
+        "label": "ML / CV",
+        "value": "PyTorch, TensorFlow, OpenCV, scikit-learn, Hugging Face"
+      },
+      {
+        "label": "Web",
+        "value": "Vue.js, Node.js, Express, MongoDB, Redis"
+      },
+      {
+        "label": "Tools",
+        "value": "Git, Docker, Linux, LaTeX, Weights &amp; Biases"
+      }
+    ],
+    "awards": [
+      "<strong>GTM Superglue Hackathon Winner, Munich (Feb 2026)</strong> &ndash; Built an automated lead pipeline for YC founders using scraping, AI lead scoring, and personalized outbound. <a href=\"https://www.loom.com/share/fdc01e532e6c4d5fbe6a02313143038e\" target=\"_blank\" rel=\"noopener\">video link.</a>",
+      "<strong>Semifinalist</strong>, India Innovation Challenge Design Contest (DST India &amp; Texas Instruments), 2021",
+      "<strong>First Place</strong>, National Level Technical Paper Presentation, 2019"
+    ],
+    "certifications": [
+      "Machine Learning &ndash; Stanford Online (Coursera)",
+      "Deep Learning Specialization &ndash; deeplearning.ai",
+      "Natural Language Processing Specialization &ndash; deeplearning.ai",
+      "AI for Medicine Specialization &ndash; deeplearning.ai"
+    ],
+    "contactHtml": "<strong>Official Email:</strong> <a href=\"mailto:bharathikannan.nithyanantham@uni-rostock.de\">bharathikannan.nithyanantham@uni-rostock.de</a><br><strong>Personal Email:</strong> <a href=\"mailto:bharathikannanhs@gmail.com\">bharathikannanhs@gmail.com</a><br><strong>Location:</strong> Rostock, Germany<br><a href=\"https://github.com/bharathikannann\" target=\"_blank\" rel=\"noopener\">GitHub</a>, <a href=\"https://www.linkedin.com/in/bharathi-kannan-n-077a1b14a/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>, <a href=\"https://scholar.google.com/citations?user=cJnFLboAAAAJ&hl=en\" target=\"_blank\" rel=\"noopener\">Google Scholar</a>"
+  }
+}
