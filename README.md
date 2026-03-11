@@ -24,14 +24,6 @@ Common updates:
 3. Add or edit CV entries in `cvPage` (`education`, `experience`, `skills`, `awards`, `certifications`, `contactHtml`).
 4. Keep page-specific static text (profile/about/research intro) in the HTML files.
 
-## Local preview
-
-```powershell
-python -m http.server 8000
-```
-
-Open `http://localhost:8000`.
-
 ## Deploy to GitHub Pages
 
 1. Push to `main`.
