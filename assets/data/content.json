@@ -20,6 +20,11 @@
         "href": "publications.html"
       },
       {
+        "key": "blogs",
+        "label": "Blogs",
+        "href": "https://nbharathik.github.io/blogs/"
+      },
+      {
         "key": "cv",
         "label": "CV",
         "href": "cv.html"
